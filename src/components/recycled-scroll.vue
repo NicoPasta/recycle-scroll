@@ -301,16 +301,6 @@ const handleScroll = () => {
     updateScrollView(false, true);
   });
 };
-// 会影响视口大小
-// const handleResize = () => {
-//   if (ready && !scrollDirty) {
-//     scrollDirty = true;
-//     requestAnimationFrame(() => {
-//       scrollDirty = false;
-//       updateScrollView(false);
-//     });
-//   }
-// };
 </script>
 
 <style scoped>
